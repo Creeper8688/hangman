@@ -1,5 +1,4 @@
 import random
-import colorama
 
 with open('words.txt') as f:
     words = f.read().splitlines()
