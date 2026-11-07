@@ -15,7 +15,7 @@ def consume_life(lives): #Function to make the player lose lives when they guess
     print('Lives left:', lives)
     return lives
 
-print(hangmanword) #Word debug
+#print(hangmanword)             Word debug
 while is_puzzle_solved == False and lives > 0: #checking to see if the program should be run
     guess = input('Enter a guess (Can be letters or words):').lower()
     guesses.append(guess) #Getting the guess and adding it to the list
